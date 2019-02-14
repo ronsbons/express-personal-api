@@ -6,7 +6,7 @@ It's time to have some fun and play with the technologies you've learned in the 
 * At least one **CRUD-able resource** (Create, Read, Update, Destroy)
 * and an `/api/profile` endpoint with some basic **details about you**
 
-Finally, you will **consume your API** using AJAX and **render the results** to the page using jQuery. You must complete *both* of these portions of the assignment.
+Finally, you will **consume your API** using AJAX and **render the results** to the page using jQuery.
 
 Please fork & clone this repo to get started.
 
