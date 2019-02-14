@@ -131,9 +131,8 @@ An example API for 'Jon Snow' might have endpoints like:
 
 Make sure to spend time planning this part out!
 
-## Part 2. Personal Dashboard
+## Bonus: Personal Dashboard
 
-#### Minimum Requirements
 Consume the Personal API you just created, and use it to build your own personal dashboard.
 
 * Create an `index.html` **homepage** that's linked to your main JavaScript and CSS files.
