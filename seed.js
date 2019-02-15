@@ -4,12 +4,10 @@
 const db = require('./models');
 
 // const new_campsite = {description: "Sharp rocks. Middle of nowhere."}
-
 // db.Campsite.create(new_campsite, function(err, campsite){
 //   if (err){
 //     return console.log("Error:", err);
 //   }
-
 //   console.log("Created new campsite", campsite._id)
 //   process.exit(); // we're all done! Exit the program.
 // })
@@ -71,13 +69,13 @@ db.Destinations.deleteMany({}, function(err, destinations){
   if(err) {
     console.log('Error occurred in remove', err);
   } else {
-    console.log('removed all books');
+    console.log('removed all destinations');
     // create new records based on the array books_list
     db.Destinations.create(destinations_list, function(err, destinations){
       if (err) {
         return console.log('err', err);
       };
-      console.log("created", destinations.length, "books");
+      console.log("created", destinations.length, "destinations");
       process.exit();
     });
   };

@@ -143,7 +143,7 @@ app.get('/api', (req, res) => {
       {
         method: "GET",
         path: "/api/profile",
-        description: "A litte about me"
+        description: "A little about me"
       },
       {
         method: "GET",
