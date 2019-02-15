@@ -232,11 +232,12 @@ app.post('/api/destinations', (request, response) => {
     country: request.body.country,
     date: request.body.date,
     favoriteFood: request.body.food,
-  })
+    image: request.body.image,
+  });
   // save the new destination to the db
   newDest.save((err, destination) => {
     if (err) { throw err; };
-    console.log(`Saved ${destination.title}`);
+    console.log(`Saved ${destination.city}`);
     response.json(destination);
   });
 });
